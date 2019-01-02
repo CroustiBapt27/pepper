@@ -1,23 +1,28 @@
 {
-  "name": "pepper",
-  "version": "1.0.0",
-  "description": "pepper the great",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node app.js"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/JulienVera/pepper.git"
-  },
-  "author": "Julien Vera",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/JulienVera/pepper/issues"
-  },
-  "homepage": "https://github.com/JulienVera/pepper#readme",
+  "name": "pepper-react",
+  "version": "0.1.0",
+  "private": true,
   "dependencies": {
-    "express": "^4.16.4"
-  }
+    "bootstrap": "^4.1.3",
+    "jquery": "^3.3.1",
+    "popper.js": "^1.14.6",
+    "react": "^16.6.3",
+    "react-dom": "^16.6.3",
+    "react-scripts": "2.1.1"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
 }
